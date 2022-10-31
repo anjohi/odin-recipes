@@ -1,4 +1,6 @@
-#h1 {
+/* index style */
+
+.h1 {
     background-color: rgb(235, 18, 87);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,7 +9,7 @@
     font-weight: 800;
 }
 
-#h2 {
+.h2 {
     color: rgb(235, 18, 87);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -27,4 +29,26 @@ a:hover, a:visited, a:link, a:active {
 li {
     text-align: center;
     font-size: 28px;
+}
+
+/* recipes styles */
+
+.fries {
+    height:auto;
+    width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h3 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 34px;
+}
+
+.p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
